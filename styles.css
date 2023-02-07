@@ -1,0 +1,172 @@
+
+.logo{
+    width: 150px;
+    padding: 0;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  #111;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    border-bottom: 1pt solid white;
+    border-top: 1pt solid white;
+}
+
+ul{
+    margin-right: 250px;
+    margin-top: 90px;
+    font-size: 16pt;
+  
+}
+
+li {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links{
+    font-size: 26pt;
+    font-family: "acier-bat-outline", sans-serif;
+    font-style: normal;
+    padding-top: 25px;
+    margin-right: 180px;
+}
+
+li:hover {
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("./Images/background3.png");
+    background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    width: 675px;
+    color: rgb(235, 253, 243);
+    font-size: 26pt;
+    padding-left: 130px;
+    font-family: "work-sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.signature {
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.content{
+    margin: auto;
+    width: 80%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 450px; 
+}
+
+footer {
+    background-color: #111;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    border-top: 1pt solid white;
+    border-bottom: 1pt solid white;
+}
+
+.footer{
+    float: right;
+    font-size: 16pt;
+    line-height: -50px;
+    font-family: "acier-bat-outline", sans-serif;
+    font-style: normal;
+}
+
+.illustration {
+    padding-left: 200px;
+    padding-top: 25px;
+}
+
+.copyright{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.mySkills {
+    color: white;
+}
+
+.flexContainer {
+    display: flex;
+    padding:0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mySkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workGrid {
+    display: grid;
+    grid-gap: 5px;
+    padding-top: 1%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+.myWork{
+    text-align: center;
+    padding-top: 6%;
+} 
+
+h1 {
+color: white;
+font-size: 30pt;
+font-family: "acier-bat-outline", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3 {
+color: white;
+font-size: 12pt;
+font-family: "work-sans", sans-serif;
+font-weight: 300;
+font-style: normal;
+padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.flexContainer{
+    display: column;
+    width: 100%;
+}}
+
+
